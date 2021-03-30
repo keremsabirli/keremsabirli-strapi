@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_items",
+  "info": {
+    "name": "HeaderItem"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
